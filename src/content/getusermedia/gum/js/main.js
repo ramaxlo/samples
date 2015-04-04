@@ -31,4 +31,6 @@ function errorCallback(error) {
   console.log('navigator.getUserMedia error: ', error);
 }
 
+console.log(navigator.getUserMedia);
+console.log(navigator.mediaDevices.getUserMedia.toString());
 navigator.getUserMedia(constraints, successCallback, errorCallback);
